@@ -1,7 +1,13 @@
 # Awesome WordPress Plugin List
 
-- WP Sync DB 
-  https://github.com/wp-sync-db/wp-sync-db
+
+## Database Stuff
+
+### WP Sync DB 
+  desc: Best Plugin to Sync Databases across WordPress Installations
+  link: https://github.com/wp-sync-db/wp-sync-db
+  
+  
 - Advanced Custom Fields Pro 
   http://www.advancedcustomfields.com/ 
 - Contact Form 7 http://contactform7.com/ 
