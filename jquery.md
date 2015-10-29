@@ -3,10 +3,10 @@
 
 #### MatchHeight  
 http://brm.io/jquery-match-height/
-
+---
 #### FullPage.js  
 http://alvarotrigo.com/fullPage/ 
-
+---
 #### Waypoints  
 http://imakewebthings.com/waypoints/ 
 
