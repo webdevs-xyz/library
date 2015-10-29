@@ -120,3 +120,6 @@ https://jonsuh.com/blog/social-share-links/
 https://github.com/iconic/SVGInjector  
 
 ---
+
+#### Magnific Popup
+http://dimsemenov.com/plugins/magnific-popup/
