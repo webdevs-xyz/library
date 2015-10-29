@@ -44,4 +44,4 @@ https://github.com/am-impact/amforms
 
 #### Compressor
 A Craft CMS extension to automatically combine, minify, and cache-break your CSS and JS resources.
-https://github.com/sathoro/Compressor
+https://github.com/sathoro/Compressor 
