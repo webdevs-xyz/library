@@ -12,67 +12,111 @@ http://alvarotrigo.com/fullPage/
 ---
 
 #### Waypoints  
-http://imakewebthings.com/waypoints/ 
+http://imakewebthings.com/waypoints/  
+
+---
 
 #### Transform.js  
-http://louisremi.github.io/jquery.transform.js/ 
+http://louisremi.github.io/jquery.transform.js/  
+
+---
 
 #### Lazyloading  
-http://www.appelsiini.net/projects/lazyload / http://afarkas.github.io/lazysizes/ 
+http://www.appelsiini.net/projects/lazyload / http://afarkas.github.io/lazysizes/  
+
+---
 
 #### Scrollorama  
-http://johnpolacek.github.io/scrollorama/ 
+http://johnpolacek.github.io/scrollorama/  
+
+---
 
 #### CSS Breakpoints in Javascript bringen  
-http://codepen.io/mherchel/pen/gbygBd 
+http://codepen.io/mherchel/pen/gbygBd  
+
+---
 
 #### Image Lightbox  
-http://osvaldas.info/image-lightbox-responsive-touch-friendly 
+http://osvaldas.info/image-lightbox-responsive-touch-friendly  
+
+---
 
 #### scrollTo  
-https://github.com/flesler/jquery.scrollTo 
+https://github.com/flesler/jquery.scrollTo  
+
+---
 
 #### LightBox  
-http://dimsemenov.com/plugins/magnific-popup/ 
+http://dimsemenov.com/plugins/magnific-popup/  
+
+---
 
 #### Switchery  
-http://abpetkov.github.io/switchery/ 
+http://abpetkov.github.io/switchery/  
+
+---
 
 #### Fancybox  
-http://fancyapps.com 
+http://fancyapps.com  
+
+---
 
 #### ImagesLoaded  
-http://imagesloaded.desandro.com/ 
+http://imagesloaded.desandro.com/  
+
+---
 
 #### SVG.js  
-http://svgjs.com/ 
+http://svgjs.com/  
+
+---
 
 #### GSAP  
-http://greensock.com/gsap 
+http://greensock.com/gsap  
+
+---
 
 #### Detect Mobile Browsers  
-http://detectmobilebrowsers.com/ 
+http://detectmobilebrowsers.com/  
+
+---
 
 #### JS Cookie  
-https://github.com/js-cookie/js-cookie 
+https://github.com/js-cookie/js-cookie  
+
+---
 
 #### Photoswipe  
-http://photoswipe.com/ 
+http://photoswipe.com/  
+
+---
 
 #### Boilerplate  
-http://jqueryboilerplate.com/ 
+http://jqueryboilerplate.com/  
+
+---
 
 #### Blazy  
-http://dinbror.dk/blog/blazy/ 
+http://dinbror.dk/blog/blazy/  
+
+---
 
 #### Unveil  
-http://luis-almeida.github.io/unveil/ 
+http://luis-almeida.github.io/unveil/  
+
+---
 
 #### jQuery Transit  
-http://ricostacruz.com/jquery.transit/ 
+http://ricostacruz.com/jquery.transit/  
+
+---
 
 #### Share Popup + Links  
-https://jonsuh.com/blog/social-share-links/ 
+https://jonsuh.com/blog/social-share-links/  
+
+---
 
 #### SVG Injector  
-https://github.com/iconic/SVGInjector 
+https://github.com/iconic/SVGInjector  
+
+---
