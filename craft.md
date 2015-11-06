@@ -2,6 +2,11 @@
 
 ## Field Plugins
 
+#### Craft Field Cheat Sheet
+Craft Field Cheat Sheet gives you a quick overview of how to use your Fields
+The Craft Field Cheat Sheet brings code samples into context to the site you're actually working on. The code you're shown actually uses your custom field names rather than sample field names. Each custom field shows you the type of field and some common code snippets that you can copy and paste for quick use within your templates.
+https://github.com/focuslabllc/craft-field-cheat-sheet
+
 #### Doxter
 Doxter is a markdown plugin designed to improve the way you write documentation
 https://github.com/selvinortiz/craft.doxter 
