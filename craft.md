@@ -27,6 +27,10 @@ https://github.com/fruitstudios/LinkIt
 Enhance a busy Matrix field by organising block types
 http://plugins.supercooldesign.co.uk/plugin/pimp-my-matrix
 
+#### Reasons
+Conditional Fields
+https://github.com/mmikkel/Reasons-Craft/
+
 ---
   
 ## Navigation
