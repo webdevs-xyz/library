@@ -49,6 +49,13 @@ https://github.com/am-impact/amforms
 
 ---
 
+## REST
+
+#### Element API plugin for Craft
+https://github.com/pixelandtonic/ElementAPI
+
+---
+
 ## Cache
 
 #### Compressor
