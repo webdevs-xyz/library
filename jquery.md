@@ -126,5 +126,10 @@ http://dimsemenov.com/plugins/magnific-popup/
 
 ---
 
+#### Slick
+http://kenwheeler.github.io/slick/
+
+---
+
 #### Lazy Sizes
 https://github.com/aFarkas/lazysizes
