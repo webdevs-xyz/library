@@ -1,125 +1,130 @@
-# jQuery Stuff
+# jQuery / JS Stuff
 
 
-#### MatchHeight  
+#### MatchHeight
 http://brm.io/jquery-match-height/
 
 ---
 
-#### FullPage.js  
-http://alvarotrigo.com/fullPage/ 
+#### FullPage.js
+http://alvarotrigo.com/fullPage/
 
 ---
 
-#### Waypoints  
-http://imakewebthings.com/waypoints/  
+#### Waypoints
+http://imakewebthings.com/waypoints/
 
 ---
 
-#### Transform.js  
-http://louisremi.github.io/jquery.transform.js/  
+#### Transform.js
+http://louisremi.github.io/jquery.transform.js/
 
 ---
 
-#### Lazyloading  
-http://www.appelsiini.net/projects/lazyload / http://afarkas.github.io/lazysizes/  
+#### Lazyloading
+http://www.appelsiini.net/projects/lazyload / http://afarkas.github.io/lazysizes/
 
 ---
 
-#### Scrollorama  
-http://johnpolacek.github.io/scrollorama/  
+#### Scrollorama
+http://johnpolacek.github.io/scrollorama/
 
 ---
 
-#### CSS Breakpoints in Javascript bringen  
-http://codepen.io/mherchel/pen/gbygBd  
+#### CSS Breakpoints in Javascript bringen
+http://codepen.io/mherchel/pen/gbygBd
 
 ---
 
-#### Image Lightbox  
-http://osvaldas.info/image-lightbox-responsive-touch-friendly  
+#### Image Lightbox
+http://osvaldas.info/image-lightbox-responsive-touch-friendly
 
 ---
 
-#### scrollTo  
-https://github.com/flesler/jquery.scrollTo  
+#### scrollTo
+https://github.com/flesler/jquery.scrollTo
 
 ---
 
-#### LightBox  
-http://dimsemenov.com/plugins/magnific-popup/  
+#### LightBox
+http://dimsemenov.com/plugins/magnific-popup/
 
 ---
 
-#### Switchery  
-http://abpetkov.github.io/switchery/  
+#### Switchery
+http://abpetkov.github.io/switchery/
 
 ---
 
-#### Fancybox  
-http://fancyapps.com  
+#### Fancybox
+http://fancyapps.com
 
 ---
 
-#### ImagesLoaded  
-http://imagesloaded.desandro.com/  
+#### ImagesLoaded
+http://imagesloaded.desandro.com/
 
 ---
 
-#### SVG.js  
-http://svgjs.com/  
+#### SVG.js
+http://svgjs.com/
 
 ---
 
-#### GSAP  
-http://greensock.com/gsap  
+#### GSAP
+http://greensock.com/gsap
 
 ---
 
-#### Detect Mobile Browsers  
-http://detectmobilebrowsers.com/  
+#### Detect Mobile Browsers
+http://detectmobilebrowsers.com/
 
 ---
 
-#### JS Cookie  
-https://github.com/js-cookie/js-cookie  
+#### JS Cookie
+https://github.com/js-cookie/js-cookie
 
 ---
 
-#### Photoswipe  
-http://photoswipe.com/  
+#### Photoswipe
+http://photoswipe.com/
 
 ---
 
-#### Boilerplate  
-http://jqueryboilerplate.com/  
+#### Boilerplate
+http://jqueryboilerplate.com/
 
 ---
 
-#### Blazy  
-http://dinbror.dk/blog/blazy/  
+#### Blazy
+http://dinbror.dk/blog/blazy/
 
 ---
 
-#### Unveil  
-http://luis-almeida.github.io/unveil/  
+#### Unveil
+http://luis-almeida.github.io/unveil/
 
 ---
 
-#### jQuery Transit  
-http://ricostacruz.com/jquery.transit/  
+#### jQuery Transit
+http://ricostacruz.com/jquery.transit/
 
 ---
 
-#### Share Popup + Links  
-https://jonsuh.com/blog/social-share-links/  
+#### Share Popup + Links
+https://jonsuh.com/blog/social-share-links/
 
 ---
 
-#### SVG Injector  
-https://github.com/iconic/SVGInjector  
+#### SVG Injector
+https://github.com/iconic/SVGInjector
 
 ---
 
 #### Magnific Popup
 http://dimsemenov.com/plugins/magnific-popup/
+
+---
+
+#### Lazy Sizes
+https://github.com/aFarkas/lazysizes
