@@ -61,3 +61,11 @@ https://github.com/pixelandtonic/ElementAPI
 #### Compressor
 A Craft CMS extension to automatically combine, minify, and cache-break your CSS and JS resources.
 https://github.com/sathoro/Compressor 
+
+---
+
+## Import
+
+#### Import
+Import CSV Data to Entries, Categories and more
+https://github.com/boboldehampsink/import
