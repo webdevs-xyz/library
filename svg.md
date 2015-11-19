@@ -10,3 +10,6 @@ http://osvaldas.info/caching-svg-sprite-in-localstorage
 
 ---
 
+#### SVG Tips for Designers
+http://sarasoueidan.com/blog/svg-tips-for-designers
+
