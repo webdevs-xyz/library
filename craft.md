@@ -69,3 +69,13 @@ https://github.com/sathoro/Compressor
 #### Import
 Import CSV Data to Entries, Categories and more
 https://github.com/boboldehampsink/import
+
+---
+
+## External JSON
+
+#### FeedMe
+Feed Me is a Craft plugin to make it easy to import entries and entry data from XML, RSS, ATOM or JSON feeds. Feeds can be setup as a task in Craft's Control Panel, or called on-demand for use in your twig templates.
+
+A common use-case for this plugin is to consume external feeds (news, events), but can also be used as a once-off task for importing content when migrating from other sites.
+https://github.com/engram-design/FeedMe
