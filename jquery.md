@@ -121,11 +121,6 @@ https://github.com/iconic/SVGInjector
 
 ---
 
-#### Magnific Popup
-http://dimsemenov.com/plugins/magnific-popup/
-
----
-
 #### Slick
 http://kenwheeler.github.io/slick/
 
