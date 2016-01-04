@@ -79,3 +79,25 @@ Feed Me is a Craft plugin to make it easy to import entries and entry data from 
 
 A common use-case for this plugin is to consume external feeds (news, events), but can also be used as a once-off task for importing content when migrating from other sites.
 https://github.com/engram-design/FeedMe
+
+## Twig & Template
+#### Hacksaw
+A simple text truncation plugin for Craft CMS. This plugin adds a Twig filter to take your entry's content and hack it down to a more manageable size. It strips the HTML and limits the excerpts by character count, word count, or cutoff marker.
+https://github.com/ehousestudio/craft_hacksaw
+
+#### Minify
+A simple plugin that allows you to minify blocks of HTML, CSS, and JS inline in Craft CMS templates
+https://github.com/khalwat/minify
+
+#### Dbug
+dbug function für einfacheres und übersichtlicheres debuggen
+https://github.com/lukeholder/craft-dbug
+
+#### Imager
+Image Transforms on Fire sozusagen, schön um Responsive Images zu erstellen, dazu die Möglichkeit mit Filtern zu arbeiten, am besten in Kombination mit Imagick
+https://github.com/aelvan/Imager-Craft
+
+## SEO
+#### Seomatic
+A turnkey SEO implementation for Craft CMS that is comprehensive, powerful, and flexible
+https://github.com/khalwat/seomatic
