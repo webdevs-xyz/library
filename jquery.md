@@ -128,3 +128,8 @@ http://kenwheeler.github.io/slick/
 
 #### Lazy Sizes
 https://github.com/aFarkas/lazysizes
+
+#### Datepicker
+http://amsul.ca/pickadate.js/
+http://bevacqua.github.io/rome/
+https://github.com/dbushell/Pikaday
