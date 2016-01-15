@@ -12,7 +12,7 @@
     <option name="Twig" value="true" />
   </context>
 </template>
-<template name="assets" value="{% for image in craft.assets.&#10;  .source('$SOURCE$')&#10;  .kind('image')&#10;  .limit(10)&#10;}) %}&#10;  &lt;img src=&quot;{{ image.url('thumb') }}&quot; width=&quot;{{ image.width }}&quot; height=&quot;{{ image.height }}&quot; alt=&quot;{{ image.title }}&quot;&gt;&#10;{% endfor %}&#10;$END$" toReformat="false" toShortenFQNames="true">
+<template name="assets" value="{% for image in craft.assets&#10;  .source('$SOURCE$')&#10;  .kind('image')&#10;  .limit(10)&#10;}) %}&#10;  &lt;img src=&quot;{{ image.url('thumb') }}&quot; width=&quot;{{ image.width }}&quot; height=&quot;{{ image.height }}&quot; alt=&quot;{{ image.title }}&quot;&gt;&#10;{% endfor %}&#10;$END$" toReformat="false" toShortenFQNames="true">
   <variable name="SOURCE" expression="" defaultValue="&quot;source&quot;" alwaysStopAt="true" />
   <context>
     <option name="HTML_TEXT" value="true" />
