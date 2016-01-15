@@ -133,3 +133,7 @@ https://github.com/aFarkas/lazysizes
 http://amsul.ca/pickadate.js/
 http://bevacqua.github.io/rome/
 https://github.com/dbushell/Pikaday
+
+#### Form Validation
+http://parsleyjs.org/doc/examples/simple.html
+https://github.com/jzaefferer/jquery-validation
