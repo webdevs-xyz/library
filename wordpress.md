@@ -96,3 +96,8 @@ https://de.wordpress.org/plugins/polylang/
 
 #### Polylang Slug
 https://github.com/grappler/polylang-slug
+
+---
+
+#### Custom Post Type Permalinks
+https://wordpress.org/plugins/custom-post-type-permalinks/
