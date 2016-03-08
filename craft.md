@@ -91,7 +91,12 @@ https://github.com/khalwat/minify
 
 #### Dbug
 dbug function für einfacheres und übersichtlicheres debuggen
-https://github.com/lukeholder/craft-dbug
+~~https://github.com/lukeholder/craft-dbug~~ 
+deprecated
+
+#### Craft Kint
+Adds Kint, an in-app PHP debugger, to Craft CMS for use in Twig and PHP.
+https://github.com/mildlygeeky/craft_kint
 
 #### Imager
 Image Transforms on Fire sozusagen, schön um Responsive Images zu erstellen, dazu die Möglichkeit mit Filtern zu arbeiten, am besten in Kombination mit Imagick
