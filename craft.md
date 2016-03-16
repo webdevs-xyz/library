@@ -106,3 +106,7 @@ https://github.com/aelvan/Imager-Craft
 #### Seomatic
 A turnkey SEO implementation for Craft CMS that is comprehensive, powerful, and flexible
 https://github.com/khalwat/seomatic
+
+#### Simple Sitemap
+This plugin helps to create a search engine XML sitemap
+[Simple Sitemap](https://straightupcraft.com/craft-plugins/simple-sitemap)
