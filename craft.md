@@ -31,6 +31,10 @@ http://plugins.supercooldesign.co.uk/plugin/pimp-my-matrix
 Conditional Fields
 https://github.com/mmikkel/Reasons-Craft/
 
+#### Preparse
+Allows you to prepase things on entry save
+https://github.com/aelvan/Preparse-Field-Craft
+
 ---
   
 ## Navigation
