@@ -1,0 +1,15 @@
+{#
+  Include with Filepath
+  Source: http://withchief.com/blog/using-macros-to-improve-consistency-in-your-craft-cms-templates
+  Required Plugins: Craft Hacksaw
+
+  Usage:
+
+  {{ helpers.truncate(entry.richTextField, 70) }}
+#}
+
+
+
+{% macro truncate(text, limit = 100) %}
+  {{ text | hacksaw(words=limit, append='...') }}
+{% endmacro %}
