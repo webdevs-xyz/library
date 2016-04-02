@@ -1,0 +1,184 @@
+{#
+  Name: Case Wrapper
+  Author: David Hellmann
+  URL: http://davidhellmann.com
+
+  Required Plugins: Imager
+  
+  Usage:
+
+  {{ dh_macros.dh_caseWrapper('macbook', previewImage) }}
+#}
+
+{% macro dh_caseWrapper(caseWrapper, sourceField) %}
+
+
+  {# Settings #}
+  {% set wrapper  = caseWrapper|default('macbook') %}
+  {% set source   = sourceField %}
+  {% switch wrapper %}
+
+  {# MacBook #}
+  {% case 'macbook' %}
+  <div class="m_macbook">
+    <div class="m_macbook__display">
+      <figure class="m_macbook__figure">
+
+        {# start: Image Settings #}
+        {# get Image #}
+        {% set image = source.first() %}
+
+        {# Set Image Crop Sizes #}
+        {% set cropSizes = [
+        { width: 1600 },
+        { width: 800 },
+        { width: 400 },
+        { width: 40, jpegQuality: 40, effects: { grayscale: true, blur: 40 }},
+        ] %}
+
+        {# settings for Preview Images #}
+        {% set images = craft.imager.transformImage(image, cropSizes, {
+        jpegQuality: 80,
+        ratio: 16/10,
+        mode: 'crop',
+        position: 'top-center'
+        }) %}
+
+        <img class="lazyload"
+             data-sizes="auto"
+             data-srcset="{{ craft.imager.srcset(images) }}"
+             src="{{ images[3].url }}"
+             alt="{{ image.title }}">
+        {# end: Image Settings #}
+
+      </figure>
+    </div>
+    <div class="m_macbook__body"></div>
+  </div>
+
+  {% case 'browser' %}
+  <div class="browser">
+    <figure class="browser__figure">
+
+      {# start: Image Settings #}
+      {# get Image #}
+      {% set image = source.first() %}
+
+      {# Set Image Crop Sizes #}
+      {% set cropSizes = [
+      { width: 1600 },
+      { width: 800 },
+      { width: 400 },
+      { width: 40, jpegQuality: 40, effects: { grayscale: true, blur: 40 }},
+      ] %}
+
+      {# settings for Preview Images #}
+      {% set images = craft.imager.transformImage(image, cropSizes, {
+      jpegQuality: 80,
+      }) %}
+
+      <img class="lazyload"
+           data-sizes="auto"
+           data-srcset="{{ craft.imager.srcset(images) }}"
+           src="{{ images[3].url }}"
+           alt="{{ image.title }}">
+      {# end: Image Settings #}
+
+      <div class="browser__bar">
+        <div class="browser__dot  browser__dot--01"></div>
+        <div class="browser__dot  browser__dot--02"></div>
+        <div class="browser__dot  browser__dot--03"></div>
+      </div>
+    </figure>
+  </div>
+
+  {% case 'ipad' %}
+  <div class="iPad">
+    <figure class="iPad__figure">
+      {# start: Image Settings #}
+      {# get Image #}
+      {% set image = source.first() %}
+
+      {# Set Image Crop Sizes #}
+      {% set cropSizes = [
+      { width: 1600 },
+      { width: 800 },
+      { width: 400 },
+      { width: 40, jpegQuality: 40, effects: { grayscale: true, blur: 40 }},
+      ] %}
+
+      {# settings for Preview Images #}
+      {% set images = craft.imager.transformImage(image, cropSizes, {
+      jpegQuality: 80,
+      ratio: 4/3,
+      mode: 'crop',
+      position: 'top-center'
+      }) %}
+
+      <img class="lazyload"
+           data-sizes="auto"
+           data-srcset="{{ craft.imager.srcset(images) }}"
+           src="{{ images[3].url }}"
+           alt="{{ image.title }}">
+      {# end: Image Settings #}
+    </figure>
+  </div>
+
+  {% case 'iphone' %}
+  <div class="iPhone">
+    <figure class="iPhone__figure">
+      {# start: Image Settings #}
+      {# get Image #}
+      {% set image = source.first() %}
+
+      {# Set Image Crop Sizes #}
+      {% set cropSizes = [
+      { width: 1600 },
+      { width: 800 },
+      { width: 400 },
+      { width: 40, jpegQuality: 40, effects: { grayscale: true, blur: 40 }},
+      ] %}
+
+      {# settings for Preview Images #}
+      {% set images = craft.imager.transformImage(image, cropSizes, {
+      jpegQuality: 80,
+      ratio: 1/1.56221889055,
+      mode: 'crop',
+      position: 'top-center'
+      }) %}
+
+      <img class="lazyload"
+           data-sizes="auto"
+           data-srcset="{{ craft.imager.srcset(images) }}"
+           src="{{ images[3].url }}"
+           alt="{{ image.title }}">
+      {# end: Image Settings #}
+    </figure>
+  </div>
+
+  {% case 'default' %}
+  <figure>
+    {# get Image #}
+    {% set image = source.first() %}
+
+    {# Set Image Crop Sizes #}
+    {% set cropSizes = [
+    { width: 1600 },
+    { width: 800 },
+    { width: 400 },
+    { width: 40, jpegQuality: 40, effects: { grayscale: true, blur: 40 }},
+    ] %}
+
+    {% set images = craft.imager.transformImage(image, cropSizes, {
+    jpegQuality: 80
+    }) %}
+
+    <img class="lazyload"
+         data-sizes="auto"
+         data-srcset="{{ craft.imager.srcset(images) }}"
+         src="{{ images[3].url }}"
+         alt="{{ image.title }}">
+  </figure>
+  {% endswitch %}
+
+{% endmacro %}

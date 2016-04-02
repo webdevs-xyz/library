@@ -34,7 +34,7 @@
 {# Multiple Include Locations #}
 {% macro include(filepath, context = 'main') %}
   {% switch context %}
-  
+
     {% case 'emails' %}
       {% include '_emails/includes/' ~ filepath %}
 
