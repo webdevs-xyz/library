@@ -1,0 +1,31 @@
+{#
+  Date Formatted
+  Source: http://withchief.com/blog/using-macros-to-improve-consistency-in-your-craft-cms-templates
+
+  Usage:
+
+  Simple Version
+  {{ xxx.date_formatted(entry.postDate) }}
+
+  Different Format Types
+  {{ xxx.date_formatted(entry.postDate, 'short') }}
+#}
+
+
+
+{# Simple Version #}
+{% macro date_formatted(givenDate) %}
+  {{ givenDate | date('jS F Y') }}
+{% endmacro %}
+
+
+
+{# Different Format Types #}
+{% macro date_formatted(givenDate, type = 'expanded') %}
+  {% switch type %}
+  {% case 'short' %}
+  {{ givenDate | date('m/d/Y') }}
+  {% case 'expanded' %}
+  {{ givenDate | date('jS F Y') }}
+  {% endswitch %}
+{% endmacro %}

@@ -1,0 +1,45 @@
+{#
+  Include with Filepath
+  Source: http://withchief.com/blog/using-macros-to-improve-consistency-in-your-craft-cms-templates
+
+  Usage:
+
+  Simple Version
+  {{ xxx.include('layout/header') }}
+
+  Passing Variables Version
+  {{ xxx.include('layout/header', {
+    pageTitle: 'Contact us'
+  }) }}
+
+  Multiple Include Locations
+  {{ xxx.include('layout/header', 'main') }}
+#}
+
+
+{# Simple Version #}
+{% macro include(filepath) %}
+  {% include '_main/includes/' ~ filepath %}
+{% endmacro %}
+
+
+
+{# Passing Variables Version #}
+{% macro include(filepath, variables = {}) %}
+  {% include '_main/includes/' ~ filepath with variables only %}
+{% endmacro %}
+
+
+
+{# Multiple Include Locations #}
+{% macro include(filepath, context = 'main') %}
+  {% switch context %}
+  
+    {% case 'emails' %}
+      {% include '_emails/includes/' ~ filepath %}
+
+    {% case 'main' %}
+      {% include '_main/includes/' ~ filepath %}
+
+  {% endswitch %}
+{% endmacro %}
