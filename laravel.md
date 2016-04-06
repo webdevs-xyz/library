@@ -37,6 +37,7 @@ The source code of Laravel is hosted on GitHub and licensed under the terms of M
 ### Monitoring and all the other usefull Jazz
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper): If you use PhpStorm then this package is a must have. I use it on all my projects and it makes your IDE play nicely.
 - [Slack Messages](http://packalyst.com/packages/package/maknz/slack): Send messages from Laravel to Slack.
+- [LERN (Laravel Exception Recorder and Notifier)](http://packalyst.com/packages/package/tylercd100/lern): Report exceptions via email or even Slack
 - [cURL](http://packalyst.com/packages/package/ixudra/curl): Easy to use cURL package.
 
 ## Development Environment
