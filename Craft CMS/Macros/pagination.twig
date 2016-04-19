@@ -25,7 +25,7 @@
   {% endpaginate %}
 #}
 
-{% macro dh_pagination(pages,craft,classname,searchquery) %}
+{% macro pagination(pages,craft,classname,searchquery) %}
   {% set search = searchquery|default(false) %}
   {% set class = classname|default('m_pagination') %}
   ​
