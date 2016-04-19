@@ -1,6 +1,6 @@
 {#
   Prev / Next Link
-  Example:
+  Examples:
 
  {{ dh_macros.dh_postNav('blog', 'postDate', entry) }}
 #}
@@ -20,8 +20,22 @@
 
   {# And make sure to only output the links if the element exists #}
   {% if prevEntry or nextEntry %}
-    {% if prevEntry %}<a href="{{ prevEntry.url }}">{{ prevEntry.title }}</a>{% endif %}
-    {% if nextEntry %}<a href="{{ nextEntry.url }}">{{ prevEntry.title }}</a>{% endif %}
+    <ul class="m_postNav">
+      <li class="m_postNav__item">
+        {% if prevEntry %}
+          <a class="m_postNav__link  m_postNav__link--prev" href="{{ prevEntry.url }}">
+            <span>{{ prevEntry.title }}</span>
+          </a>
+        {% endif %}
+      </li>
+      <li class="m_postNav__item">
+        {% if nextEntry %}
+          <a class="m_postNav__link  m_postNav__link--next" href="{{ nextEntry.url }}">
+            <span>{{ prevEntry.title }}</span>
+          </a>
+        {% endif %}
+      </li>
+    </ul>
   {% endif %}
 
 {% endmacro %}
