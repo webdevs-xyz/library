@@ -1,0 +1,27 @@
+{#
+  Prev / Next Link
+  Example:
+
+ {{ dh_macros.dh_postNav('blog', 'postDate', entry) }}
+#}
+
+{% macro dh_postNav(section, order, entry) %}
+
+  {# Set vars #}
+  {% set section = section|default('blog') %}
+  {% set order   = order|default('postDate') %}
+
+  {# Set parameters for prev/next elements list #}
+  {% set data = craft.entries.section(section).order(order) %}
+
+  {# Get the prev/next elements #}
+  {% set prevEntry = entry.getPrev(data) %}
+  {% set nextEntry = entry.getNext(data) %}
+
+  {# And make sure to only output the links if the element exists #}
+  {% if prevEntry or nextEntry %}
+    {% if prevEntry %}<a href="{{ prevEntry.url }}">{{ prevEntry.title }}</a>{% endif %}
+    {% if nextEntry %}<a href="{{ nextEntry.url }}">{{ prevEntry.title }}</a>{% endif %}
+  {% endif %}
+
+{% endmacro %}
