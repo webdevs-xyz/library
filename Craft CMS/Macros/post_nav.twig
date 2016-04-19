@@ -21,20 +21,20 @@
   {# And make sure to only output the links if the element exists #}
   {% if prevEntry or nextEntry %}
     <ul class="m_postNav">
-      <li class="m_postNav__item">
-        {% if prevEntry %}
+      {% if prevEntry %}
+        <li class="m_postNav__item">
           <a class="m_postNav__link  m_postNav__link--prev" href="{{ prevEntry.url }}">
             <span>{{ prevEntry.title }}</span>
           </a>
-        {% endif %}
-      </li>
-      <li class="m_postNav__item">
-        {% if nextEntry %}
+        </li>
+      {% endif %}
+      {% if nextEntry %}
+        <li class="m_postNav__item">
           <a class="m_postNav__link  m_postNav__link--next" href="{{ nextEntry.url }}">
             <span>{{ nextEntry.title }}</span>
           </a>
-        {% endif %}
-      </li>
+        </li>
+      {% endif %}
     </ul>
   {% endif %}
 
