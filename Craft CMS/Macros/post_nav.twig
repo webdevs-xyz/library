@@ -5,11 +5,13 @@
  {{ dh_macros.dh_postNav('blog', 'postDate', entry) }}
 #}
 
-{% macro dh_postNav(section, order, entry) %}
+{% macro dh_postNav(entry, section, order, prevLabel, nextLabel ) %}
 
   {# Set vars #}
-  {% set section = section|default('blog') %}
-  {% set order   = order|default('postDate') %}
+  {% set section     = section|default('blog') %}
+  {% set order       = order|default('postDate') %}
+  {% set prevLabel   = prevLabel|default(false) %}
+  {% set nextLabel   = nextLabel|default(false) %}
 
   {# Set parameters for prev/next elements list #}
   {% set data = craft.entries.section(section).order(order) %}
@@ -24,14 +26,21 @@
       {% if prevEntry %}
         <li class="m_postNav__item">
           <a class="m_postNav__link  m_postNav__link--prev" href="{{ prevEntry.url }}">
-            <span>{{ prevEntry.title }}</span>
+
+            {% if prevLabel != false %}
+              <span class="m_postNav__label">{{ prevLabel }}</span>
+            {% endif %}
+            <span class="m_postNav__title">{{ prevEntry.title }}</span>
           </a>
         </li>
       {% endif %}
       {% if nextEntry %}
         <li class="m_postNav__item">
           <a class="m_postNav__link  m_postNav__link--next" href="{{ nextEntry.url }}">
-            <span>{{ nextEntry.title }}</span>
+            {% if nextLabel != false %}
+              <span class="m_postNav__label">{{ nextLabel }}</span>
+            {% endif %}
+            <span class="m_postNav__title">{{ prevEntry.title }}</span>
           </a>
         </li>
       {% endif %}
