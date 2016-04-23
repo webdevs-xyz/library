@@ -179,6 +179,12 @@ https://github.com/khalwat/seomatic
 
 
 
+#### Craft Sitemap
+A simple plugin for Craft that generates a sitemap.xml based on enabled sections.
+https://github.com/joshuabaker/craft-sitemap
+
+
+
 #### Simple Sitemap
 This plugin helps to create a search engine XML sitemap
 [Simple Sitemap](https://straightupcraft.com/craft-plugins/simple-sitemap)
