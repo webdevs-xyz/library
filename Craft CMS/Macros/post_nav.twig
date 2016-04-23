@@ -14,7 +14,7 @@
   {% set nextLabel   = nextLabel|default(false) %}
 
   {# Set parameters for prev/next elements list #}
-  {% set data = craft.entries.section(section).order(order) %}
+  {% set data = craft.entries.section(section).order(order).limit(null) %}
 
   {# Get the prev/next elements #}
   {% set prevEntry = entry.getPrev(data) %}

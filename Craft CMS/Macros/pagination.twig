@@ -31,24 +31,25 @@
   ​
   {# Add Pagination only if the Page Number is higher than 1#}
   {% if pages.totalPages > 1 %}
+
     <nav class="{{ class }}" role="navigation">
       {# Dont display last page when on the first Page #}
-      {% if pages.firstUrl != craft.request.getUrl and pages.totalPages > 2 %}
-        <a class="{{ class }}__link" href="{{ pages.firstUrl }}{{ search ? '?q=#{search}' }}" title="Zur ersten Seite">
+      {% if pages.currentPage > 2 and pages.prevUrl %}
+        <a class="{{ class }}__link" href="{{ pages.firstUrl }}{{ search ? '?q='~search }}" title="Zur ersten Seite">
           &laquo;
         </a>
       {% endif %}
       ​
       {# Display the Previous Link if available #}
       {% if pages.prevUrl %}
-        <a class="{{ class }}__link" href="{{ pages.prevUrl }}{{ search ? '?q=#{search}' }}" title="Zurück zur vorhergehenden Seite">
+        <a class="{{ class }}__link" href="{{ pages.prevUrl }}{{ search ? '?q='~search }}" title="Zurück zur vorhergehenden Seite">
           &lsaquo;
         </a>
       {% endif %}
 
       {# Display prev 5 Page Links#}
       {% for page, url in pages.getPrevUrls(5) %}
-        <a class="{{ class }}__link  {{ class }}__link--number" href="{{ url }}{{ search ? '?q=#{search}' }}" title="Sprung zur Seite {{ page }}">
+        <a class="{{ class }}__link  {{ class }}__link--number" href="{{ url }}{{ search ? '?q='~search }}" title="Sprung zur Seite {{ page }}">
           {{ page }}
         </a>
       {% endfor %}
@@ -60,21 +61,21 @@
 
       {# Display next 5 Page Links #}
       {% for page, url in pages.getNextUrls(5) %}
-        <a class="{{ class }}__link  {{ class }}__link--number" href="{{ url }}{{ search ? '?q=#{search}' }}" title="Sprung zur Seite {{ page }}">
+        <a class="{{ class }}__link  {{ class }}__link--number" href="{{ url }}{{ search ? '?q='~search }}" title="Sprung zur Seite {{ page }}">
           {{ page }}
         </a>
       {% endfor %}
 
       {# Display next Page Link if available#}
       {% if pages.nextUrl %}
-        <a class="{{ class }}__link" href="{{ pages.nextUrl }}{{ search ? '?q=#{search}' }}" title="Weiter zur nächsten Seite">
+        <a class="{{ class }}__link" href="{{ pages.nextUrl }}{{ search ? '?q='~search }}" title="Weiter zur nächsten Seite">
           &rsaquo;
         </a>
       {% endif %}
 
       {# Dont display when on the last page #}
-      {% if pages.lastUrl != craft.request.getUrl and pages.totalPages > 2 %}
-        <a class="{{ class }}__link" href="{{ pages.lastUrl }}{{ search ? '?q=#{search}' }}" title="Zur letzten Seite">
+      {% if (pages.totalPages - 1) > pages.currentPage and pages.totalPages > 2 %}
+        <a class="{{ class }}__link" href="{{ pages.lastUrl }}{{ search ? '?q='~search }}" title="Zur letzten Seite">
           &raquo;
         </a>
       {% endif %}
