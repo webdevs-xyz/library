@@ -31,7 +31,7 @@ https://css-tricks.com/full-width-containers-limited-width-parents/
 ### Learning Vue 1.0: Step By Step
 https://laracasts.com/series/learning-vue-step-by-step
 
-### The Vast World of Vue.js 0.12**
+### The Vast World of Vue.js 0.12
 https://laracasts.com/series/learning-vuejs
 
 ### Create an App in VueJS 2
