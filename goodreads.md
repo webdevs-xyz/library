@@ -20,6 +20,9 @@ https://css-tricks.com/full-width-containers-limited-width-parents/
 ### Working with Images in Stylesheets with PostCSS
 https://css-tricks.com/images-in-postcss/
 
+### ease-out, in; ease-in, out
+https://css-tricks.com/ease-out-in-ease-in-out/
+
 ---
 
 ## Craft CMS
