@@ -36,3 +36,9 @@ https://laracasts.com/series/learning-vuejs
 
 ### Create an App in VueJS 2
 https://auth0.com/blog/2016/07/14/create-an-app-in-vuejs-2/
+
+---
+
+## Images
+### Retina revolution
+https://www.netvlies.nl/tips-updates/design-interactie/retina-revolution
