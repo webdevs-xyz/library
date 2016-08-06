@@ -194,7 +194,7 @@ https://github.com/joshuabaker/craft-sitemap
 
 #### Simple Sitemap
 This plugin helps to create a search engine XML sitemap
-[Simple Sitemap](https://straightupcraft.com/craft-plugins/simple-sitemap)
+https://github.com/xodigital/SimpleSitemap
 
 
 
