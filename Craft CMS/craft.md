@@ -21,6 +21,13 @@ https://github.com/engram-design/SuperTable
 
 
 
+#### Neo
+A Matrix-like field type that uses existing fields
+Neo is a Craft CMS field type that builds upon the concept of the Matrix field type with a number of very useful features. Neo has been carefully crafted (pun intended) to ensure it matches the look and feel of Craft.
+https://github.com/benjamminf/craft-neo
+
+
+
 #### Field Manager
 Field Manager is a Craft CMS plugin to make it easy to manage your fields and field groups.
 https://github.com/engram-design/FieldManager
