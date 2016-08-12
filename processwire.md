@@ -104,6 +104,19 @@ http://modules.processwire.com/modules/fieldtype-runtime-markup/
 
 ---
 
+#### ProcessDatabaseBackups
+Backend Interface for Database Backups and Backup Restores
+
+https://github.com/ryancramerdesign/ProcessDatabaseBackups
+---
+
+#### Hanna Code
+
+Shortcodes like Wordpress -> Based loosely on the WordPress Hana Code Insert module at: http://wordpress.org/plugins/hana-code-insert/   
+https://github.com/ryancramerdesign/ProcessHannaCode
+
+---
+
 #### Formbuilder Module
 Paid: Provides the capability to build, edit and embed forms on your ProcessWire powered site
 http://modules.processwire.com/modules/form-builder/
