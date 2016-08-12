@@ -103,3 +103,13 @@ This module allows for custom markup to be dynamically (PHP) generated and outpu
 http://modules.processwire.com/modules/fieldtype-runtime-markup/
 
 ---
+
+#### Formbuilder Module
+Paid: Provides the capability to build, edit and embed forms on your ProcessWire powered site
+http://modules.processwire.com/modules/form-builder/
+
+##### FieldtypeForms
+Stores reference to a single FormBuilder Form to allow easy selection on pages.
+https://gist.github.com/craigrodway/7515600
+
+---
