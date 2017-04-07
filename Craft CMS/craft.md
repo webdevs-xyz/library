@@ -135,7 +135,7 @@ https://topshelfcraft.com/scraper
 
 #### Hacksaw
 A simple text truncation plugin for Craft CMS. This plugin adds a Twig filter to take your entry's content and hack it down to a more manageable size. It strips the HTML and limits the excerpts by character count, word count, or cutoff marker.
-https://github.com/ehousestudio/craft_hacksaw
+https://github.com/ryanshrum/hacksaw
 
 
 
